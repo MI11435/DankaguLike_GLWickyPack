@@ -1,56 +1,35 @@
-Welcome to WickyPack for DankaguLike!!!
+## 何故全部出したのか
+色々追加したらmain.luaすら書き換えなきゃいけなくなった為、新たに作った次第です。
+
+※この文章の殆どはWickyPackからの引用です。
+
+Welcome to WickyPack+MImod for DankaguLike!!!
 
 Ver. 2.2.0
 Featuring
++ Difficulty (難易度表示)
++ DamageTint (ダメージ演出)
++ ArrowPath　(矢印レーン)
++ TapEffect (タップエフェクト)
++ JudgeViewer　(判定表示)
++ NoteEffect　(ノーツエフェクト)
++ SubtitleLyric (歌詞表示)
++ Video (動画表示)
++ SongTitle (曲名表示)
 
-+ Difficulty (難易度)
-+ DamageTint (ダメージ演出）
-+ ArrowPath (矢印レーン)
-+ TapEffect (タップ・エフェクト)
-+ JudgeViewer (判定表示)
-+ NoteEffect (ノート・エフェクト)
-+ SubtitleLyric (歌詞)
-+ Video (動画)
-+ SongTitle (曲名)
+MImod
++ C-NoteSet (カスタムノーツ設定)
++ Houkai (崩壊)
++ InfiniteLife　(無限ライフ)
++ MISS-madness (MISS発狂)
++ SoftLanding　(ソフラン)
 
-[https://github.com/WickyPlays/DankaguLike_GLWickyPack](https://github.com/WickyPlays/DankaguLike_GLWickyPack)
+設定ファイル: `settings.ini`
 
-Setting file: `settings.ini`
+## 使い方
+WickyPackと同じです。
 
-## About DankaguLike
+## ダウンロード
+[ここからダウンロードして下さい。](https://github.com/MI11435/WickyPack_plus_MImod/releases/latest)
 
-DankaguLike is a fan-made Touhou rhythm game that is a revival of the original end-of-service game Touhou Danmaku Kagura.
-
-## About WickyPack
-
-This is a Global Lua modpack scripts reserved for extra functionalities for DankaguLike that's suitable for your gameplay.
-
-## Featuring
-
-+ Difficulty: allows viewing difficulty note at bottom right of screen
-+ DamageTint: allows visible damage tint to players when they miss notes.
-+ ArrowPath: a cool moving arrow path on the lane for the flow.
-+ TapEffect: a visible effect whether player taps the screen.
-+ JudgeViewer: allows users to view note judgements (Brillant, Great, Good, Bad, Miss) directly in the gameplay rather than result screen.
-+ NoteEffect: adding cool note effects whether player successfully hit notes.
-+ SubtitleLyric: lyrics that are visible on the screen in the middle of gameplay from just a subtitle file (.srt) in song folder.
-+ Video: video that are visible on the gameplay background if there are .mp4 file somewhere in the chart.
-+ SongTitle: allows viewing song title at bottom left of screen.
-
-## How to use
-
-Step 1: Install DankaguLike from this link: https://dankag-like.web.app/download
-
-Step 2: Download the package. (See Download below)
-
-Step 3: Extract the package then put it into GlobalLua folder of the game's data files.
-
-Step 4: Open the game.
-
-Step 5: Before playing the chart, go to Settings (設定変更) > Others (その他) > Global Lua (グローバルLua), switch until "DankaguLike_GLWickyPack".
-
-Step 6: That's it!
-
-## Download
-
-You are able to download the pack from [this link here](https://github.com/WickyPlays/DankaguLike_GLWickyPack/releases).
+このパッケージはWickyPackに色々足したものです。

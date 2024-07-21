@@ -1,5 +1,4 @@
 -- --著者: Wicky
-
 local File = CS.System.IO.File
 local Directory = CS.System.IO.Directory
 local Path = CS.System.IO.Path
@@ -82,6 +81,9 @@ function onloaded()
 		end
 		scripts[i].LoadAssetBundle = function(asset)
 			return ASSETMAN:LoadAssetBundle(modules[i] .. "\\" .. asset)
+		end
+		scripts[i].LoadAudio = function (asset,name)
+			return name:LoadAudio(modules[i] .. "\\" .. asset)
 		end
 		if scripts[i].onloaded == nil then goto continue end
 		scripts[i].onloaded()

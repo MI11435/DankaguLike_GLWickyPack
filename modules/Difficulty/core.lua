@@ -1,10 +1,20 @@
 --著者: Wicky
 
+-- require "tools/module.lua"
+
 local _TextCanvasText = nil
 local UnityEngine = CS.UnityEngine
 local Vector2 = UnityEngine.Vector2
 local Vector3 = UnityEngine.Vector3
+local Material = UnityEngine.Material
+local Resources = UnityEngine.Resources
 local GameObject = UnityEngine.GameObject
+
+local WickyCanvas = nil
+local diffText = nil
+local diffColor = nil
+local diffMeter = nil
+local diffX = nil
 
 local execute = {}
 execute.active = true
@@ -31,14 +41,13 @@ end
 
 execute.onloaded = function()
 	
-	local WickyCanvas = util.GetCanvas()
+	WickyCanvas = util.GetCanvas()
 
-	local diffText = ''
-	local diffColor = util.ColorRGB(0, 0, 0)
+	diffText = ''
+	diffColor = util.ColorRGB(0, 0, 0)
 	local diffType = SONGMAN:GetDifficultyToInt()
-	local diffMeter = SONGMAN:GetMeter()
-    local diffX = false
-	local size = execute.GetOption("size")
+	diffMeter = SONGMAN:GetMeter()
+    diffX = false
 
 	if diffType == 0 then
 		diffText = "Easy"
@@ -56,15 +65,20 @@ execute.onloaded = function()
 		diffText = "Lunatic"
 		diffColor = util.ColorRGB(222, 0, 255)
 	end
-
+	UTIL:DelayAction(1,MIdelay)
+end
+function MIdelay()
+	if _Houkai==1 then
+		diffText = "壊:" .. diffText
+	end
     diffX = diffMeter == 12345678
 
     if (diffX) then
-        CreateLyricCanvas(WickyCanvas, "TextDifficultyShadow", Vector3(-33, -1002, 0), diffColor, diffText .. ' X', size)
-        CreateLyricCanvas(WickyCanvas, "TextDifficulty", Vector3(-35, -1000, 0), util.ColorRGB(255, 255, 255), diffText .. ' X', size)
-    else
-        CreateLyricCanvas(WickyCanvas, "TextDifficultyShadow", Vector3(-33, -1002, 0), diffColor, diffText .. ' ' .. diffMeter, size)
-        CreateLyricCanvas(WickyCanvas, "TextDifficulty", Vector3(-35, -1000, 0), util.ColorRGB(255, 255, 255), diffText .. ' ' .. diffMeter, size)
+        CreateLyricCanvas(WickyCanvas, "TextDifficultyShadow", Vector3(-33, -1002, 0), diffColor, diffText .. ' X', 36) --36 = サイズ
+        CreateLyricCanvas(WickyCanvas, "TextDifficulty", Vector3(-35, -1000, 0), util.ColorRGB(255, 255, 255), diffText .. ' X', 36) --36 = サイズ
+    else 
+        CreateLyricCanvas(WickyCanvas, "TextDifficultyShadow", Vector3(-33, -1002, 0), diffColor, diffText .. ' ' .. diffMeter, 36) --36 = サイズ
+        CreateLyricCanvas(WickyCanvas, "TextDifficulty", Vector3(-35, -1000, 0), util.ColorRGB(255, 255, 255), diffText .. ' ' .. diffMeter, 36) --36 = サイズ
     
     end
 end

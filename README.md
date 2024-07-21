@@ -50,7 +50,7 @@ Step 3: zipファイルを解凍し、ダンカグライクのデータフォル
 
 Step 4: ダンカグライクを起動する
 
-Step 5: 譜面を遊ぶ前に、「設定変更」＞「その他」＞「グローバルLua」で、「DankaguLike_GLWickyPack」まで切り替える。
+Step 5: 譜面を遊ぶ前に、「ゲーム設定」＞「その他」＞「グローバルLua」で、「DankaguLike_GLWickyPack」まで切り替える。
 
 Step 6: 完了！
 

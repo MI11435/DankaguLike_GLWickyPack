@@ -13,7 +13,9 @@ Featuring
 + Video (動画)
 + SongTitle (曲名)
 
-[https://github.com/WickyPlays/DankaguLike_GLWickyPack](https://github.com/WickyPlays/DankaguLike_GLWickyPack)
++ MImod (色々入れる予定)
+
+[https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod](https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod)
 
 Setting file: `settings.ini`
 
@@ -53,4 +55,4 @@ Step 6: That's it!
 
 ## Download
 
-You are able to download the pack from [this link here](https://github.com/WickyPlays/DankaguLike_GLWickyPack/releases).
+You are able to download the pack from [this link here](https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod/releases).

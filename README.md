@@ -13,7 +13,12 @@ Ver. 2.2.0
 + Video (動画)
 + SongTitle (曲名)
 
-+ MImod (色々入れる予定)
+MImod
++ C-NoteSet (カスタムノーツ設定)
++ Houkai (崩壊)
++ InfiniteLife (無限ライフ)
++ MISS-madness (MISS発狂)
++ SoftLanding (ソフラン)
 
 [https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod](https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod)
 

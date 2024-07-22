@@ -1,6 +1,6 @@
 ダンカグライクのWickyPack+MImodにようこそ!!!
 
-Ver. 2.2.0
+Ver. 2.2.1
 内容
 
 + Difficulty (難易度)

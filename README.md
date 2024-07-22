@@ -1,7 +1,7 @@
-Welcome to WickyPack for DankaguLike!!!
+ダンカグライクのWickyPack+MImodにようこそ!!!
 
 Ver. 2.2.1
-Featuring
+内容
 
 + Difficulty (難易度)
 + DamageTint (ダメージ演出）
@@ -13,17 +13,25 @@ Featuring
 + Video (動画)
 + SongTitle (曲名)
 
-[https://github.com/WickyPlays/DankaguLike_GLWickyPack](https://github.com/WickyPlays/DankaguLike_GLWickyPack)
+MImod
++ C-NoteSet (カスタムノーツ設定)
++ Houkai (崩壊)
++ InfiniteLife (無限ライフ)
++ MISS-madness (MISS発狂)
++ SoftLanding (ソフラン)
 
-Setting file: `settings.ini`
+[https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod](https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod)
 
-## About DankaguLike
+設定ファイル: `settings.ini`
 
-DankaguLike is a fan-made Touhou rhythm game that is a revival of the original end-of-service game Touhou Danmaku Kagura.
+## ダンカグライクとは
 
-## About WickyPack
+サ終したスマホ版東方ダンマクカグラの2次創作に当たる東方(？)リズムゲームです。
 
-This is a Global Lua modpack scripts reserved for extra functionalities for DankaguLike that's suitable for your gameplay.
+## WickyPack+MImodについて
+
+事の発端はWickyPackに無限ライフ.luaを入れたことです。
+そこから、変な方向に行っています。軌道修正はもう出来ないね()
 
 ## Featuring
 
@@ -37,20 +45,20 @@ This is a Global Lua modpack scripts reserved for extra functionalities for Dank
 + Video: video that are visible on the gameplay background if there are .mp4 file somewhere in the chart.
 + SongTitle: allows viewing song title at bottom left of screen.
 
-## How to use
+## 導入方法
 
-Step 1: Install DankaguLike from this link: https://dankag-like.web.app/download
+Step 1: ダンカグライクをインストールする link: https://dankag-like.web.app/download
 
-Step 2: Download the package. (See Download below)
+Step 2: 下にあるダウンロードからzipファイルをダウンロードする
 
-Step 3: Extract the package then put it into GlobalLua folder of the game's data files.
+Step 3: zipファイルを解凍し、ダンカグライクのデータフォルダのGlobalLuaフォルダに入れる
 
-Step 4: Open the game.
+Step 4: ダンカグライクを起動する
 
-Step 5: Before playing the chart, go to Settings (設定変更) > Others (その他) > Global Lua (グローバルLua), switch until "DankaguLike_GLWickyPack".
+Step 5: 譜面を遊ぶ前に、「ゲーム設定」＞「その他」＞「グローバルLua」で、「DankaguLike_GLWickyPack」まで切り替える
 
-Step 6: That's it!
+Step 6: 完了！
 
-## Download
+## ダウンロード
 
-You are able to download the pack from [this link here](https://github.com/WickyPlays/DankaguLike_GLWickyPack/releases).
+[このリンク](https://github.com/MI11435/DankaguLike_GLWickyPack_plus_MImod/releases)からzipファイルをダウンロード出来ます。
